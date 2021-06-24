@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using StackExchange.Redis;
 
-namespace RedisLoggerExample
+namespace RedisLogger
 {
     public static class RedisLogger
     {

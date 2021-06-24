@@ -5,19 +5,19 @@ using Xunit;
 using StackExchange.Redis;
 using Xunit.Abstractions;
 
-namespace RedisLoggerExample
+namespace RedisLogger
 {
-    public class Tests
+    public class RedisLoggerTests
     {
         private readonly ITestOutputHelper _testOutputHelper;
 
-        public Tests(ITestOutputHelper testOutputHelper)
+        public RedisLoggerTests(ITestOutputHelper testOutputHelper)
         {
             _testOutputHelper = testOutputHelper;
         }
 
         [Fact]
-        public void Test1()
+        public void RedisTest()
         {
             using (var redis = ConnectionMultiplexer.Connect("localhost"))
             {

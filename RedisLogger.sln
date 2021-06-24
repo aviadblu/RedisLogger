@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisLoggerExample", "RedisLoggerExample\RedisLoggerExample.csproj", "{D1672B11-C23D-45E8-9CE9-966268FCBEE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisLogger", "RedisLogger\RedisLogger.csproj", "{D1672B11-C23D-45E8-9CE9-966268FCBEE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
